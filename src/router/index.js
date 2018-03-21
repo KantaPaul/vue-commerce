@@ -15,7 +15,7 @@ export default new Router({
       component: Dashboard
     },
     {
-      path: '/Edit/:employee_id',
+      path: '/Edit/:id',
       name: 'EditEmployee',
       component: EditEmployee
     },
@@ -25,7 +25,7 @@ export default new Router({
       component: NewEmployee
     },
     {
-      path: '/View/:employee_id',
+      path: '/View/:id',
       name: 'ViewEmployee',
       component: ViewEmployee
     }
